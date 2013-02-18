@@ -1,0 +1,15 @@
+<loader version="2013.01.03.1559">
+ <application id="planxtonUMJ_Theme_6_0" _blackberryVersion="[6.0.0,)">
+  <name>planxtonUMJ_Theme_6_0</name>
+  <description>FTUMJ by Planxton</description>
+  <version>2013.01.03.1559</version>
+  <vendor>Planxton In Motion</vendor>
+  <copyright>Copyright (c) 2001-2010 Research In Motion Limited. All Rights Reserved.</copyright>
+  <fileset Java="1.0">
+  <directory>planxtonUMJ_Theme_6_0</directory>
+   <files>
+    com_plazmic_theme_planxtonUMJ_Theme_6_0.cod
+   </files>
+  </fileset>
+ </application>
+</loader>
