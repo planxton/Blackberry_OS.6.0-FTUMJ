@@ -1,0 +1,23 @@
+<loader version="1.0">
+<application id="net.rim.java.phone">
+        <name>Phone</name>
+        <description>Provides the ability to place and receive telephone calls.</description>
+        <version>%_appsVersion:V03%</version>
+        <vendor>RIM Repackaged by FT-UMJ</vendor>
+        <copyright>Copyright 1998-2010 Research In Motion Limited</copyright>
+        <required>true</required>
+        <directory SystemSize="normal">Java</directory>
+        <directory SystemSize="small">Java8M</directory>
+        <fileset Java="1.0">
+                <files>
+                        net_rim_bb_phone_api.cod
+                        net_rim_bb_phone_app.cod
+                </files>
+        </fileset>
+        <fileset Java="1.0" _vendorID="204|241|329|380|451|617">
+                <files>
+                        net_rim_bb_phone_auto_redialer.cod
+                </files>
+        </fileset>
+</application>
+</loader>
