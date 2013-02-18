@@ -1,0 +1,45 @@
+<loader version="1.0">
+<application id="net.rim.blackberry.activatedfeatures">
+  <name>Ringtone</name>
+	<description>Enable Features On Blackberry.</description>
+
+	<application id="net.rim.java.defaultringtone">
+		<name>Ringtone OS 6 93xx</name>
+		<description>Enable Ringtone For Blacberry 93xx.</description>
+		<version>%_RingtonesVersion:V03%</version>
+		<vendor>Research In Motion Limited</vendor>
+		<fileset Java="1.0">
+			<directory>Ringtones</directory>
+			<files>
+				net_rim_bb_mediaOTA_ringtones_320x240_02_b.cod
+			</files>
+		</fileset>
+	</application>
+
+	<application id="net.rim.java.defaultringtone">
+		<name>Ringtone OS 6 97xx</name>
+		<description>Enable RIngtone For Blacberry 97xx.</description>
+		<version>%_RingtonesVersion:V03%</version>
+		<vendor>Research In Motion Limited</vendor>
+		<fileset Java="1.0">
+			<directory>Ringtones</directory>
+			<files>
+				net_rim_bb_mediaOTA_ringtones_480x360_03_c.cod
+			</files>
+		</fileset>
+	</application>
+
+	<application id="net.rim.java.defaultringtone">
+		<name>Ringtone OS 6 9800</name>
+		<description>Enable RIngtone For Blacberry 9800.</description>
+		<version>%_RingtonesVersion:V03%</version>
+		<vendor>Research In Motion Limiteds</vendor>
+		<fileset Java="1.0">
+			<directory>Ringtones</directory>
+			<files>
+				net_rim_bb_medialoader_ringtones_360x480_06_t.cod
+			</files>
+		</fileset>
+	</application>
+</application>
+</loader> 
