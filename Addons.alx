@@ -1,0 +1,204 @@
+<loader version="1.0">
+<application id="Addons.tools">
+<name> Application Addons</name>
+<description>Kumpulan Application Addons Blackberry</description>
+  
+		<application id="Addons">
+   		<name>Application Addons</name>
+   		<description>Application Addons for Blackberry</description>
+
+			<application id="BlackBerryMessenger">
+			<name>BlackBerry Messenger for FT-UMJ</name>
+			<description>BlackBerry Messenger for FT-UMJ</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>RIM Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>Application</directory>
+			<files>
+				net_rim_bb_qm_api.cod
+				net_rim_bb_qm_bbm_internal_api.cod
+				net_rim_bb_qm_lib_barcode.cod
+				net_rim_bb_qm_peer.cod
+				net_rim_bb_qm_peer_catalyst_impl.cod
+				net_rim_bb_qm_peer_images.cod
+				net_rim_bb_qm_peer_lib.cod
+				net_rim_bb_qm_peer_resource_en.cod
+				net_rim_bb_qm_platform.cod
+				net_rim_bbgroup_database.cod
+				net_rim_bbgroup_inbox.cod
+				net_rim_bbgroup_messaging.cod
+				net_rim_bbgroup_photos.cod
+			</files>
+			</fileset>
+			</application>
+
+			
+			<application id="Blackberry App World">
+			<name>Blackberry App World for FT-UMJ</name>
+			<description>Blackberry App World for FT-UMJ</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>RIM Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>Application</directory>
+			<files>
+				net_rim_bb_appworld.cod
+				net_rim_bb_appworld_bbm_proxy.cod
+				net_rim_bb_appworld_catalyst_proxy.cod
+				net_rim_bb_appworld_eula.cod
+				net_rim_bb_appworld_img_dither.cod
+				net_rim_bb_appworld_img_dither-1.cod
+				net_rim_bb_appworld_img_dither-2.cod
+				net_rim_bb_appworld_img_dither-3.cod
+				net_rim_bb_appworld_img_dither-4.cod
+				net_rim_bb_appworld_img_dither-5.cod
+				net_rim_bb_appworld_img_dither-6.cod
+				net_rim_bb_appworld_img_dither-7.cod
+				net_rim_bb_appworld_img_dither-8.cod
+				net_rim_bb_appworld_img_dither-9.cod
+				net_rim_bb_appworld_img_dither-10.cod
+				net_rim_bb_appworld_img_dither-11.cod
+				net_rim_bb_appworld_img_dither-12.cod
+				net_rim_bb_appworld_img_dither-13.cod
+				net_rim_bb_appworld_img_dither-14.cod
+				net_rim_bb_appworld_img_dither-15.cod
+				net_rim_bb_appworld_img_dither-16.cod
+				net_rim_bb_appworld_lib.cod
+				net_rim_bb_appworld_lib-1.cod
+				net_rim_bb_appworld_lib-2.cod
+				net_rim_bb_appworld_lib-3.cod
+				net_rim_bb_appworld_lib-4.cod
+				net_rim_bb_appworld_lib-5.cod
+				net_rim_bb_appworld_lib-6.cod
+				net_rim_bb_appworld_lib-7.cod
+				net_rim_bb_appworld_lib-8.cod
+				net_rim_bb_appworld_lib-9.cod
+				net_rim_bb_appworld_lib-10.cod
+				net_rim_bb_appworld_lib-11.cod
+				net_rim_bb_appworld_lib-12.cod
+				net_rim_bb_appworld_resource_en.cod
+				net_rim_bb_appworld_updater.cod
+				net_rim_bb_appworld_usb.cod
+			</files>
+			</fileset>
+			</application>
+
+			<application id="BlackberryIdentity">
+			<name>Blackberry Identity</name>
+			<description>Blackberry Identity for FT-UMJ</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>RIM Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>Application</directory>
+			<files>
+				net_rim_bbid_api.cod
+				net_rim_bbid_common.cod
+				net_rim_bbid_daemon.cod
+			</files>
+			</fileset>
+			</application>
+
+			<application id="Doc2Go">
+			<name>Doc2Go</name>
+			<description>Doc2Go Hybrid</description>
+			<version>3.0.0.21</version>
+			<vendor>Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+				DocsToGo.cod
+				DocsToGoCommon.cod
+				DocsToGoCommonResource.cod
+				DocsToGoCommonResource__en.cod
+				PDFToGoLib.cod
+				SheetToGo.cod
+				SheetToGoResource.cod
+				SheetToGoResource__en.cod
+				SlideshowToGo.cod
+				SlideshowToGoResource.cod
+				SlideshowToGoResource__en.cod
+				WordToGo.cod
+				WordToGoResource.cod
+				WordToGoResource__en.cod
+			</files>
+			</fileset>
+			</application>
+
+			<application id="Facebook">
+			<name>Facebook Blackberry for FT-UMJ</name>
+			<description>Facebook Blackberry for FT-UMJ</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>RIM Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+				net_rim_bb_facebook.cod
+				net_rim_bb_facebook_bbm_lib.cod
+				net_rim_bb_facebook_lib.cod
+				net_rim_bb_facebook_resource.cod
+				net_rim_bb_facebook_resource_en.cod
+				net_rim_bb_facebook_resource_en_GB.cod
+				net_rim_bb_facebook_resource_high_res.cod
+				net_rim_bb_facebook_resource_large.cod
+			</files>
+			</fileset>
+			</application>
+
+			<application id="Twitter">
+			<name>Twitter Blackberry for FT-UMJ</name>
+			<description>Twitter Blackberry for FT-UMJ</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>RIM Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>Application</directory>
+            		<files>
+                		net_rim_bb_twitter.cod
+				net_rim_bb_twitter_bbm.cod
+				net_rim_bb_twitter_catalyst_lib.cod
+                		net_rim_bb_twitter_lib.cod
+                		net_rim_bb_twitter_resources_small.cod
+                		net_rim_bb_twitter_resources_large.cod
+				net_rim_bb_twitter_resources_hires.cod
+                		net_rim_bb_twitter_resource_en.cod
+				net_rim_bb_twitter_resource_en_GB.cod
+            		</files>
+        		</fileset>
+			</application>
+
+			<application id="YahooMessenger">
+			<name>YahooMessenger Blackberry for FT-UMJ</name>
+			<description>YahooMessenger Blackberry for FT-UMJ</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>RIM Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>Application</directory>
+			<files>
+				net_rim_bb_qm_yahoo.cod
+				net_rim_bb_qm_yahoo_catint.cod
+				net_rim_bb_qm_yahoo_catintif.cod
+				net_rim_bb_qm_yahoo_resource_en.cod
+				net_rim_bb_qm_yahoo-1.cod
+				net_rim_bb_qm_yahoo-2.cod
+				net_rim_bb_qm_yahoo-3.cod
+				net_rim_bb_qm_yahoo-4.cod
+				net_rim_bb_qm_yahoo-5.cod
+				net_rim_bb_qm_yahoo-6.cod
+				net_rim_bb_qm_yahoo-7.cod
+				net_rim_bb_qm_yahoo-8.cod
+				net_rim_bb_qm_yahoo-9.cod
+				net_rim_bb_qm_yahoo-10.cod
+				net_rim_bb_qm_yahoo-11.cod
+				net_rim_bb_qm_yahoo-12.cod
+				net_rim_bb_qm_yahoo-13.cod
+				net_rim_bb_qm_yahoo-14.cod
+				net_rim_bb_qm_yahoo-15.cod
+				net_rim_bb_qm_yahoo-16.cod
+				net_rim_bb_qm_yahoo-17.cod
+				net_rim_bb_qm_yahoo-18.cod
+				net_rim_bb_qm_yahoo-19.cod
+			</files>
+			</fileset>
+			</application>
+
+		</application>
+</application> 
+</loader> 
