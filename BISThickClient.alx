@@ -1,0 +1,18 @@
+<loader version="1.0">
+<application id="com.rim.bis.client">
+  <name>Email Setup library</name> 
+	<description>Shared library for BlackBerry Internet Service email.</description>
+	<version>%_appsVersion:V03%</version>
+	<vendor>RIM Repackaged by FT-UMJ</vendor>
+        <copyright>2013</copyright>
+	<required>true</required>
+	<hidden>true</hidden>
+        <directory SystemSize="normal">Java</directory>
+        <directory SystemSize="small">Java8M</directory>
+        <fileset Java="1.0">
+        	<files>
+               		net_rim_bis_lib.cod
+        	</files>
+        </fileset>
+</application>
+</loader>
