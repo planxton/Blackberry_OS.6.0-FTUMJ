@@ -1,0 +1,108 @@
+<loader version="1.0">
+<system>
+        <directory/>
+        <osfiles>
+                <os radio="CDMA-WLAN" series="Aries2" Colour="True" Theme="Normal" JVMLevel="1.0" Camera="True" VideoRecorder="True" VoiceNotes="True" pttApp="True" Memory="Large" KeyboardType="Qwerty" Sound="Tunes7130c" SystemSize="normal" Bluetooth="True" MMS="True" GPS="True" ThemeSupport="Enhanced" VAD="True" JPN_Input="True" WLAN="True" VPN="True" MTP="True" WebKit="True" ITUT="False">FTUMJ_Radio/FTUMJ_Radio.sfi</os>
+        </osfiles>
+        <application id="net.rim.platform">
+                <name>Blackberry FT-UMJ System Core</name>
+                <description>Blackberry System Core for FT-UMJ</description>
+                <version>6.0</version>
+                <vendor>RIM Repackaged by FT-UMJ</vendor>
+                <copyright>2013</copyright>
+                <required>true</required>
+                <directory SystemSize="normal">Java</directory>
+                <fileset radio="CDMA-WLAN" Java="1.0">
+                        <files>
+                                net_rim_app_manager.cod
+                                net_rim_cldc.cod
+                                net_rim_io_impl.cod
+                                net_rim_platform_resource.cod
+                                net_rim_platform_resource__en.cod
+                                net_rim_services_impl.cod
+                                net_rim_platform_im_resource.cod
+                                net_rim_platform_im_resource__en.cod
+                                net_rim_ui_api.cod
+                                net_rim_ui_impl.cod
+                                net_rim_ui_extension.cod
+                                net_rim_json_org.cod
+                                net_rim_tac.cod
+                                net_rim_m2g.cod
+                                net_rim_bb_framework_api.cod
+                                net_rim_app_manager_console.cod
+                                net_rim_bb_application_permissions_proxy.cod
+                                net_rim_bb_trust_application_manager.cod
+                                net_rim_bb_appremoval.cod
+                                net_rim_font_latin_truetype.cod
+                                net_rim_platformapps_resource.cod
+                                net_rim_platformapps_resource__en.cod
+                                net_rim_bb_phone_dc_resources.cod
+                                net_rim_bb_addressbook.cod
+                                net_rim_bb_browser.cod
+                                net_rim_bb_call_control.cod
+                                net_rim_bb_externalproxy.cod
+                                net_rim_bb_messaging.cod
+                                net_rim_bb_messaging_app.cod
+                                net_rim_bb_models.cod
+                                net_rim_bb_options.cod
+                                net_rim_bb_options_app.cod
+                                net_rim_bb_phone_model.cod
+                                net_rim_bb_phone_resource.cod
+                                net_rim_bb_profiles_app.cod
+                                net_rim_bb_profiles_app_new.cod
+                                net_rim_bb_profiles_lib.cod
+                                net_rim_bb_profiles_alertengine_app.cod
+                                net_rim_bb_quickcontact.cod
+                                net_rim_bb_ribbon_lib.cod
+                                net_rim_bb_search.cod
+                                net_rim_bb_recentcontacts.cod
+                                net_rim_bb_timezones.cod
+                                net_rim_bb_voice.cod
+                                net_rim_bb_sendasemailapp.cod
+                                net_rim_bb_sendasmmsapp.cod
+                                net_rim_bb_sendtomessengercontactapp.cod
+                                net_rim_bb_sendusingbluetoothapp.cod
+                                net_rim_bb_setupwizard.cod
+                                net_rim_bb_spellcheck.cod
+                                net_rim_amms.cod
+                                net_rim_barcodelib.cod
+                                net_rim_convenience_key_api.cod
+                                net_rim_escreen.cod
+                                net_rim_escreen_app.cod
+                                net_rim_media.cod
+                                net_rim_media_api.cod
+                                net_rim_drm.cod
+                                net_rim_satsa.cod
+                                net_rim_jaxrpc.cod
+                                net_rim_bb_timezonedynupdater.cod
+                                net_rim_ui_alpha.cod
+                                net_rim_bbapi_unifiedsearch.cod
+                                net_rim_bb_universalsearch_lib.cod
+                                net_rim_bbapi_ui_sharing.cod
+                                net_rim_platform_contenthandler_ui.cod
+                                net_rim_sql.cod
+                                net_rim_database.cod
+                                net_rim_phone_tty_enabler.cod
+                                net_rim_bb_sms.cod
+                        </files>
+                </fileset>
+                <fileset Bluetooth="True" Java="1.0">
+                        <files>
+                                net_rim_bluetooth.cod
+                        </files>
+                </fileset>
+               
+        </application>
+</system>
+        <library id="net.rim.platform.ecmascript">
+                <name>BlackBerry ECMAScript Library</name>
+                <fileset Java="1.0">
+                <files>
+                     net_rim_ecmascript.cod
+                     net_rim_ecmascript_resource.cod
+                     net_rim_ecmascript_resource__en.cod
+                </files>
+                </fileset>
+                <directory SystemSize="normal">Java</directory>
+        </library>
+</loader>
