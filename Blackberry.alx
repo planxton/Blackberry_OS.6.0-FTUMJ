@@ -1,0 +1,594 @@
+<loader version="1.0">
+        <application id="net.rim.blackberry">
+                <name>Blackberry FT-UMJ System Core</name>
+                <description>FT-UMJ System Core Applications for the BlackBerry Smartphone</description>
+                <version>6.0</version>
+                <vendor>RIM Repackaged by FT-UMJ</vendor>
+                <copyright>2013</copyright>
+                <requires id="net.rim.blackberry.fullFastPredictiveIM" KeyboardType="Qwerty|QwertyVirtual"/>
+                <requires id="net.rim.platform.ecmascript"/>
+                <required>true</required>
+                <directory SystemSize="normal">Java</directory>
+                <fileset Java="1.0">
+                        <files>
+                                net_rim_tid_core.cod
+                                net_rim_tid_im_alph_core.cod
+                                net_rim_tid.cod
+  			net_rim_tid_spell_check.cod
+                                net_rim_tid_AddrBookRep.cod
+                        </files>
+                </fileset>
+                <fileset WLAN="True" Java="1.0">
+                        <files>
+                                net_rim_cldc_impl_api.cod
+                                net_rim_options_profiles_api.cod
+                                net_rim_cldc_impl_wlan.cod
+                                net_rim_wlan_options.cod
+                                net_rim_wap_provisioning.cod
+                                net_rim_bb_sitesurvey.cod
+                                net_rim_bb_captiveportaldetector.cod
+                                net_rim_bb_diagnostic_subsystem.cod
+                                net_rim_bb_diagnostics_ui.cod
+                                net_rim_cldc_wlan_diagnostics.cod
+                                net_rim_cldc_srp_diagnostics.cod
+                                net_rim_wlan_wizard.cod
+                                net_rim_wlan_notifications.cod
+                                net_rim_wlan_apps_api.cod
+                                net_rim_wlan_bb_resources.cod
+                                net_rim_wlan_bb_resource.cod
+                                net_rim_wlan_runtime_resources.cod
+                                net_rim_wlan_runtime_resource.cod
+                                net_rim_wlan_bb_resource__en.cod
+                                net_rim_wlan_runtime_resource__en.cod
+                        </files>
+                </fileset>
+                <fileset Java="1.0">
+                        <files>
+                                net_rim_bb_device_selftest.cod
+                        </files>
+                </fileset>
+                <fileset radio="CDMA-WLAN" Java="1.0">
+                        <files>
+                                net_rim_os.cod
+                                net_rim_smartcard.cod
+                                net_rim_event_log_viewer_app.cod
+                                net_rim_cldc_io_rim_impl.cod
+                                net_rim_runtime_resource.cod
+                                net_rim_runtime_resource__en.cod
+                                net_rim_bb_activation.cod
+                                net_rim_bb_addressbook_app.cod
+                                net_rim_bb_addressbook_gal.cod
+                                net_rim_bb_addressbook_models.cod
+                                net_rim_bb_apps_framework.cod
+                                net_rim_bb_attachment.cod
+                                net_rim_bb_browser_field_api.cod
+                                net_rim_bb_browser_field2_api.cod
+                                net_rim_bb_browser_push.cod
+                                net_rim_bb_calendar_app.cod
+                                net_rim_bb_calendar_lib.cod
+                                net_rim_bb_calendar_ota.cod
+                                net_rim_bb_calendar_dynamic_icon.cod
+                                net_rim_bb_email.cod
+                                net_rim_bb_profiles_tunes.cod
+                                net_rim_bb_remindermanager.cod
+                                net_rim_bb_timeddialog.cod
+                                net_rim_bb_timeddialogapp.cod
+                                net_rim_bb_timeddialogwakeupapp.cod
+                                net_rim_bb_banner.cod
+                                net_rim_bb_ribbon_app.cod
+                                net_rim_bb_ribbon_skin_svg.cod
+                                net_rim_bb_ribbon_skin_svg_DelayedInitializer.cod
+                                net_rim_bb_messagesearch_lib.cod
+                                net_rim_bb_recentcontacts_lib.cod
+                                net_rim_bb_applicationdelivery.cod
+                                net_rim_bb_resource.cod
+                                net_rim_bb_resource__en.cod
+                                net_rim_bb_sms_compose.cod
+                                net_rim_bb_chat.cod
+                                net_rim_bb_mc_app.cod
+                                net_rim_bb_password_wizard.cod
+                                net_rim_bb_globalsearch_app.cod
+                                net_rim_serialformats.cod
+                                net_rim_bb_addressbook_vcard.cod
+                                net_rim_bb_clock.cod
+                                net_rim_bb_clock_lib.cod
+                                net_rim_bb_universalsearch_app.cod
+                                net_rim_bb_jaddownloadapp.cod
+                                net_rim_bb_implus_app.cod
+                                net_rim_bb_securitymonitor.cod
+                                net_rim_bb_enterpriseconfig.cod
+                                SecurIDLib.cod
+                                net_rim_rimsecuridlib.cod
+                                net_rim_cldc_impl_softtoken.cod
+                                net_rim_softtokens_options.cod
+                                net_rim_bb_free_busy_lib.cod
+                                net_rim_MIDPRootCerts.cod
+                                net_rim_bb_otasl_app.cod
+                                net_rim_bb_otasl_channel.cod
+                                net_rim_plazmic_mediaengine.cod
+                                net_rim_plazmic_themereader.cod
+                                net_rim_bb_diagnostic.cod
+                                net_rim_bb_dnslookup_app.cod
+                                net_rim_bb_ping_app.cod
+                                net_rim_bb_diagnostic_resource__en.cod
+                                net_rim_bb_file_explorer.cod
+                                net_rim_bb_file_explorer_library.cod
+                                net_rim_bb_fileindexservice.cod
+                                net_rim_bb_mediacontenthandler.cod
+                                net_rim_bb_medialibrary.cod
+                                net_rim_bb_medialibraryplayer.cod
+                                net_rim_bb_mediarecorder.cod
+                                net_rim_cldc_io_remotefile.cod
+                                net_rim_bb_mediaapp_launcher_app.cod
+                                net_rim_bb_media_framework_api.cod
+                                net_rim_bb_standardcalculator_app.cod
+                                net_rim_font_european_sff.cod
+                                net_rim_bb_browser_cookiejar.cod
+                                net_rim_bb_browser_lib.cod
+                                net_rim_bb_sbinjector_lib.cod
+                                net_rim_bb_browser_daemon.cod
+                                net_rim_bb_browser_plugin_security.cod
+                                net_rim_bb_browser_plugin_docview.cod
+                                net_rim_bb_media_plugin.cod
+                                net_rim_bb_browser_script_ext.cod
+                                net_rim_loader.cod
+                                net_rim_bb_browser_olympia.cod
+                                net_rim_bb_browser_olympia_proxy.cod
+                                net_rim_bb_rich_email.cod
+                                net_rim_bb_email_compression.cod
+                                net_rim_device_api_games.cod
+                                net_rim_bb_drm_agent.cod
+                                net_rim_bb_caprofilesmanager.cod
+                                net_rim_bb_appremoval_app.cod
+                                net_rim_bb_web_jse_api.cod
+                                net_rim_networkapi.cod
+                                net_rim_communicationapi.cod
+                                net_rim_media_actions.cod
+                                net_rim_media_actions_daemon.cod
+                                net_rim_api_wlan_hotspot.cod
+                                net_rim_plazmic_pushactivator.cod
+                                net_rim_bb_docview.cod
+                                net_rim_bb_docviewimage.cod
+                                net_rim_data_provider.cod
+                                net_rim_data_provider_resources__en.cod
+                                net_rim_sync_daemon.cod
+                                net_rim_bb_itpolicyviewer.cod
+				net_rim_tcp_options.cod
+                                net_rim_wap.cod
+                        </files> 
+                </fileset>
+                <fileset radio="CDMA-WLAN" series="Aries2" WLAN="True" Bluetooth="True" Java="1.0">
+                    <files>
+                        net_rim_bb_manage_connections.cod
+			net_rim_bb_manage_connections_lib.cod
+                    </files>
+                </fileset>
+                <fileset Java="1.0">
+                    <files>
+                        net_rim_bb_safe_mode.cod
+                    </files>
+                </fileset>
+                <fileset>
+                    <files>
+                        net_rim_bb_oldcodcleanup.cod
+                    </files>
+                </fileset>
+                <fileset>
+                    <files>
+                        net_rim_bb_application_updater.cod
+                    </files>
+                </fileset>
+                <fileset radio="CDMA-WLAN" GPS="True" Java="1.0">
+                    <files>
+                        net_rim_bb_gps_ee.cod
+                    </files>
+                </fileset>
+                <fileset radio="CDMA-WLAN" Java="1.0">
+                    <files>
+                        net_rim_bb_geolocationagent.cod
+                    </files>
+                </fileset>
+                <fileset GPS="True" Java="1.0">
+                    <files>
+                        net_rim_bb_supl_app.cod
+                        net_rim_bb_elt.cod
+                        net_rim_bb_elt_resource__en.cod
+                    </files>
+                </fileset>
+                <fileset Java="1.0">
+                    <files>
+                        net_rim_bb_otaupgrade.cod
+                    </files>
+                </fileset>
+                <fileset Bluetooth="True" Java="1.0">
+                    <files>
+                        net_rim_bt_map.cod
+                        net_rim_bMessage.cod
+                    </files>
+                </fileset>
+                <fileset Bluetooth="True" Java="1.0">
+                    <files>
+                        net_rim_bb_BTFileTransferApp.cod
+                        net_rim_bb_BluetoothFileTransfer.cod
+                    </files>
+                </fileset>
+                <fileset Java="1.0">
+                    <files>
+                        net_rim_bb_toolkit.cod
+                        net_rim_bb_toolkit_api.cod
+                    </files>
+                </fileset>
+               
+                <fileset Java="1.0">
+                    <files>
+                        net_rim_bb_medialoader_accessibility.cod
+                    </files>
+                    <self-destruct>true</self-destruct>
+                </fileset>
+                <fileset Java="1.0" series="Aries2">
+                    <files>
+                        net_rim_bb_games_app.cod
+                    </files>
+                </fileset>
+                <fileset Java="1.0">
+                    <files>
+                        net_rim_bb_unifiedsearch_lib.cod
+                    </files>
+                </fileset>
+                <fileset MMS="True" Java="1.0">
+                    <files>
+                        net_rim_bb_mms.cod
+                        net_rim_plazmic_mediaengine_smil_00.cod
+                        net_rim_plazmic_mediaengine_smil_format.cod
+                        net_rim_plazmic_mediaengine_smil_mms.cod
+                        net_rim_apps_internal_browser_smil.cod
+                    </files>
+                </fileset>
+                <fileset Java="1.0">
+                    <files>
+                        net_rim_bb_preloaded_media_crawler.cod
+                    </files>
+                </fileset>
+                <fileset Theme="Normal" Colour="True" series="Aries2" Java="1.0">
+                     <files>
+                        net_rim_bb_clock_faces.cod
+                     </files>
+                </fileset>
+                <fileset Theme="Normal" Colour="True" series="Aries2" Java="1.0">
+                     <files>
+                        net_rim_theme_BlackBerry6_320x240_b.cod
+                     </files>
+                </fileset>
+                <fileset Java="1.0" WLAN="True" _vendorID="102">
+                     <files>
+                        net_rim_hotspotclient_att.cod
+                     </files>
+                </fileset>
+		<fileset Theme="Normal" Java="1.0" series="Aries2" _vendorID="104">
+                     <files>
+                        net_rim_theme_sprint_BlackBerry6_320x240_b.cod
+                     </files>
+                </fileset>
+                <fileset Theme="Normal" Java="1.0" series="Aries2" _vendorID="119|142|162|175|217">
+                     <files>
+                        net_rim_theme_orange_BlackBerry6_320x240_b.cod
+                     </files>
+                </fileset>
+                <fileset Colour="True" series="Aries2" _vendorID="105">
+                     <files>
+                        net_rim_theme_verizon_BlackBerry6_320x240_b.cod
+                     </files>
+                </fileset> 
+                <fileset Camera="True">
+                    <files>
+                        net_rim_bb_camera.cod
+                    </files>
+                </fileset>
+                <fileset VideoRecorder="True">
+                    <files>
+                        net_rim_bb_videorecorder.cod
+                    </files>
+                </fileset>
+                <fileset VoiceNotes="True">
+                    <files>
+                        net_rim_bb_voicenotesrecorder.cod
+                    </files>
+                </fileset>
+                <fileset Java="1.0">
+                    <files>
+                        net_rim_tid_newWordsExtractor.cod
+                    </files>
+                </fileset>
+                <fileset MTP="True" Java="1.0">
+                    <files>
+                        net_rim_bb_mtp.cod
+                    </files>
+                </fileset>
+               <fileset series="Aries2" SystemSize="normal" Java="1.0">
+                    <files>
+                        net_rim_bb_omadmlib.cod
+                        net_rim_bb_syncml_omadm.cod
+                        net_rim_bb_omadmcertificate.cod
+                        net_rim_bb_syncml_stack.cod
+                    </files>
+                </fileset>
+                <fileset Java="1.0">
+                    <files>
+                        net_rim_bb_autotz.cod
+                    </files>
+                </fileset>
+               <fileset Java="1.0">
+                        <files>
+                                net_rim_bb_fumoPokeLib.cod
+                        </files>
+                </fileset>
+                <fileset SystemSize="normal" Java="1.0" _vendorID="114">
+                        <files>
+                                net_rim_bb_nabsync.cod
+                                net_rim_bb_nabsync_resource.cod
+                                net_rim_bb_nabsync_114.cod
+                                net_rim_bb_nabsync_resources_114.cod
+                                net_rim_bb_syncml_stack.cod
+                                net_rim_bb_syncml_sync.cod
+                        </files>
+                </fileset>
+        </application>
+        <library id="net.rim.blackberry.api">
+                <name>BlackBerry API Library</name>
+                <fileset Java="1.0">
+                <files>
+                     net_rim_bbapi_mailv2.cod
+                     net_rim_bbapi_mail.cod
+                     net_rim_bbapi_maps.cod
+                     net_rim_bbapi_menuitem.cod
+                     net_rim_bbapi_pim.cod
+                     net_rim_pdap.cod
+                     net_rim_pdap_resources.cod
+                     net_rim_bbapi_pim_res.cod
+                     net_rim_bbapi_pim_res__en.cod
+                     net_rim_bbapi_messagelist_res.cod
+                     net_rim_bbapi_messagelist_resources.cod
+                     net_rim_bbapi_messagelist_res__en.cod
+                     net_rim_bbapi_options.cod
+                     net_rim_bbapi_browser.cod
+                     net_rim_bbapi_phone.cod
+                     net_rim_bbapi_invoke.cod
+                     net_rim_locationapi.cod
+                     net_rim_bbapi_blackberrymessenger.cod
+                     net_rim_bbapi_stringpattern.cod
+                     net_rim_bb_lbs_api_2.cod
+                     net_rim_bbapi_messagelist.cod
+                     net_rim_media_actions.cod
+                     net_rim_bbapi_contactlinking.cod
+                     net_rim_bbapi_push.cod
+                     net_rim_bb_lbs_api_3.cod
+                     net_rim_bb_lbs_api_3_resources__en.cod
+                     net_rim_data_provider.cod
+                     net_rim_data_provider_resources__en.cod
+                     net_rim_bbapi_sharing.cod
+                     net_rim_bb_maps_api.cod
+                     net_rim_bb_maps_api_resource__en.cod
+                     net_rim_bb_mapssearch_api.cod
+                     net_rim_bb_locselector.cod
+                     net_rim_bb_locselector_resource__en.cod
+                     net_rim_bb_travel_api.cod
+                     net_rim_cradle_api.cod
+                </files>
+                </fileset>
+                <required SystemSize="normal">true</required>
+                <directory SystemSize="normal">Java</directory>
+        </library>
+        <library id="net.rim.blackberry.crypto">
+                <name>BlackBerry Crypto Library</name>
+                <fileset Java="1.0">
+                <files>
+                     net_rim_crypto_resource.cod
+                     net_rim_crypto_resource__en.cod
+                     net_rim_crypto.cod
+                </files>
+                </fileset>
+                <required SystemSize="normal">true</required>
+                <directory SystemSize="normal">Java</directory>
+        </library>
+        <library id="net.rim.blackberry.gsacacdriver">
+                <name>GSA CAC Smart Card Driver Library</name>
+                <apptype>system_independent</apptype>
+                <fileset Java="1.0">
+                <files>
+                     net_rim_smartcard_gsacac.cod
+                </files>
+                </fileset>
+                <required SystemSize="normal">true</required>
+                <directory SystemSize="normal">Java</directory>
+        </library>
+        <library id="net.rim.blackberry.safenetdriver">
+                <name>SafeNet 330 Smart Card Driver Library</name>
+                <apptype>system_independent</apptype>
+                <fileset Java="1.0">
+                <files>
+                     net_rim_smartcard_datakey.cod
+                </files>
+                </fileset>
+                <required SystemSize="normal">true</required>
+                <directory SystemSize="normal">Java</directory>
+        </library>
+        <library id="net.rim.blackberry.pivdriver">
+                <name>PIV Smart Card Driver Library</name>
+                <apptype>system_independent</apptype>
+                <fileset Java="1.0">
+                <files>
+                     net_rim_smartcard_piv.cod
+                     net_rim_smartcard_piv_lib.cod
+                </files>
+                </fileset>
+                <required SystemSize="normal">true</required>
+                <directory SystemSize="normal">Java</directory>
+        </library>
+        <library id="net.rim.blackberry.microsd">
+                <name>microSD Smart Card Reader</name>
+                <fileset Java="1.0">
+                <files>
+                     net_rim_bb_smartcardreader_microSD.cod
+                </files>
+                </fileset>
+                <required SystemSize="normal">true</required>
+                <directory SystemSize="normal">Java</directory>
+        </library>
+        <library id="net.rim.blackberry.cms">
+                <name>BlackBerry CMS Library</name>
+                <fileset Java="1.0">
+                <files>
+                    net_rim_crypto_cms.cod
+                </files>
+                </fileset>
+                <required SystemSize="normal">true</required>
+                <directory SystemSize="normal">Java</directory>
+        </library>
+        <library id="net.rim.blackberry.pgp">
+                <name>BlackBerry PGP Library</name>
+                <fileset Java="1.0">
+                <directory>Java</directory>
+                <files>
+                    net_rim_crypto_pgp.cod
+                </files>
+                </fileset>
+        </library>
+        <library id="net.rim.blackberry.cryptoappsapi">
+                <name>BlackBerry Crypto Applications API Library</name>
+                <fileset Java="1.0">
+                <files>
+                     net_rim_bb_crypto_api.cod
+                     net_rim_bb_crypto_resource.cod
+                     net_rim_bb_crypto_resource__en.cod
+                </files>
+                </fileset>
+                <required SystemSize="normal">true</required>
+                <directory SystemSize="normal">Java</directory>
+        </library>
+        <library id="net.rim.blackberry.keystorebrowser">
+                <name>BlackBerry Key Store Browser Library</name>
+                <fileset Java="1.0">
+                <files>
+                    net_rim_crypto_keystore_browser.cod
+                </files>
+                </fileset>
+                <required SystemSize="normal">true</required>
+                <directory SystemSize="normal">Java</directory>
+        </library>
+        <library id="net.rim.blackberry.keystorebrowser.certificate">
+                <name>BlackBerry Certificate Key Store Browser Library</name>
+                <fileset Java="1.0">
+                <files>
+                    net_rim_crypto_keystore_browser_certificate.cod
+                </files>
+                </fileset>
+                <required SystemSize="normal">true</required>
+                <directory SystemSize="normal">Java</directory>
+        </library>
+        <library id="net.rim.blackberry.keystorebrowser.pgp">
+                <name>BlackBerry PGP Key Store Browser Library</name>
+                <fileset Java="1.0">
+                <files>
+                    net_rim_crypto_keystore_browser_pgp.cod
+                </files>
+                </fileset>
+                <directory SystemSize="normal">Java</directory>
+        </library>
+        <library id="net.rim.blackberry.secureemail">
+                <name>BlackBerry Secure Email Library</name>
+                <fileset Java="1.0">
+                <files>
+                        net_rim_secureemail.cod
+                        net_rim_secureemail_resource.cod
+                        net_rim_secureemail_resource__en.cod
+                </files>
+                </fileset>
+                <directory>Java</directory>
+        </library>
+        <library id="net.rim.blackberry.secureemail.pgp">
+                <name>BlackBerry PGP Email Library</name>
+                <fileset Java="1.0">
+                <directory>Java</directory>
+                <files>
+                        net_rim_bb_pgp_lib.cod
+                </files>
+                </fileset>
+                <requires id="net.rim.blackberry.crypto"/>
+                <requires id="net.rim.blackberry.pgp"/>
+                <requires id="net.rim.blackberry.xml"/>
+                <requires id="net.rim.platform.ecmascript"/>
+                <requires id="net.rim.blackberry.secureemail"/>
+                <requires id="net.rim.blackberry.cryptoappsapi"/>
+                <requires id="net.rim.blackberry.keystorebrowser"/>
+                <requires id="net.rim.blackberry.keystorebrowser.pgp"/>
+                <requires id="net.rim.blackberry.ldapbrowser"/>
+                <requires id="net.rim.blackberry.ldapbrowser.pgp"/>
+                <required SystemSize="normal">true</required>
+        </library>              
+                   
+        <library id="net.rim.blackberry.ldapbrowser">
+                <name>BlackBerry LDAP Browser Library</name>
+                <fileset Java="1.0">
+                <files>
+                        net_rim_bb_ldap_browser.cod
+                        net_rim_bb_ldap_resource.cod
+                        net_rim_bb_ldap_resource__en.cod
+                </files>
+                </fileset>
+                <directory>Java</directory>
+        </library>
+        <library id="net.rim.blackberry.ldapbrowser.pgp">
+                <name>BlackBerry PGP LDAP Browser</name>
+                <fileset Java="1.0">
+                <directory>Java</directory>
+                <files>
+                        net_rim_bb_ldap_browser_pgp.cod
+                </files>
+                </fileset>
+        </library>              
+        <library id="net.rim.blackberry.ldapbrowser.x509">
+                <name>BlackBerry X.509 LDAP Browser</name>
+                <fileset Java="1.0">
+                <directory>Java</directory>
+                <files>
+                        net_rim_bb_ldap_browser_x509.cod
+                </files>
+                </fileset>
+        </library>              
+        <library id="net.rim.blackberry.xml">
+                <name>BlackBerry XML Library</name>          
+                <fileset Java="1.0">
+                <files>
+                    net_rim_xml.cod
+                    net_rim_xml_org.cod
+                </files>
+                </fileset>
+                <required SystemSize="normal">true</required>
+                <directory SystemSize="normal">Java</directory>
+        </library>
+        <library id="net.rim.blackberry.fullFastPredictiveIM">
+                <name>BlackBerry Full Fast Predictive Input Method Library</name>
+                <fileset Java="1.0">
+                <directory>Java</directory>
+                <files>
+                    net_rim_tid_fullPredictive.cod
+                    net_rim_tid_repositoryBasedEuropean.cod
+		    net_rim_tid_suretypeT12.cod
+                    net_rim_tid_fastEuropean.cod
+                    net_rim_tid_basicFastEuropean.cod
+                    net_rim_tid_AddrBookRep.cod
+                    net_rim_tid_words_injector.cod
+                </files>
+                </fileset>
+        </library>
+        
+        <library id="net.rim.blackberry.lang.ar.keyboardfont">
+                <name>BlackBerry Keypad Arabic Font Library</name>
+                <fileset Java="1.0">
+                <directory>Java</directory>
+                <files>
+                    net_rim_font_arabic_keypad.cod
+                </files>
+                </fileset>
+        </library>
+</loader>
