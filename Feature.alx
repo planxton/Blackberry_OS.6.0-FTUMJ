@@ -1,0 +1,236 @@
+<loader version="1.0">
+<application id="net.rim.blackberry.features">
+  <name>Feature</name>
+	<description>Enable Features On Blackberry.</description>
+
+	<application id="net.rim.java.browser">
+        <name>Browser</name>
+        <description>Access wireless-web based services and applications.</description>
+        <version>%_appsVersion:V03%</version>
+        <vendor>RIM Repackaged by FT-UMJ</vendor>
+        <vendor>RIM Repackaged by FT-UMJ</vendor>
+        <copyright>2012</copyright>
+        <requires id="net.rim.blackberry.xml"/>
+        <required>true</required>
+        <directory SystemSize="normal">Java</directory>
+        <directory SystemSize="small">Java8M</directory>
+        <fileset Java="1.0">
+            <files>
+                net_rim_bb_browser_cookiejar.cod
+		net_rim_bb_browser_push.cod
+                net_rim_bb_browser_lib.cod
+                net_rim_bb_sbinjector_lib.cod
+                net_rim_bb_browser_daemon.cod
+		net_rim_bb_browser_field_api.cod
+                net_rim_bb_browser_field2_api.cod
+                net_rim_bb_browser_plugin_security.cod
+                net_rim_bb_browser_plugin_docview.cod
+                net_rim_bb_media_plugin.cod
+                net_rim_bb_browser_script_ext.cod
+                net_rim_loader.cod
+                net_rim_bb_browser_olympia.cod
+                net_rim_bb_browser_olympia_proxy.cod
+            </files>
+        </fileset>
+        <fileset WLAN="True" Java="1.0">
+            <files>
+                net_rim_bb_browser_wap_provisioning.cod
+            </files>
+        </fileset>
+	</application>
+
+	<application id="net.rim.device.custom.gmail">
+      	<name>Enhanced Gmail Plug-in</name>
+      	<description>Enhanced Gmail Plug-in</description>
+      	<version>3.0.0.44</version>
+      	<vendor>Repackaged by FT-UMJ</vendor>
+      	<copyright>Copyright (c) 2009 Research In Motion Limited</copyright>
+      	<required>false</required>
+      	<hidden>false</hidden>
+      	<fileset Java="1.38">
+        <directory>Java</directory>
+        <files>
+      		net_rim_bb_gmail.cod
+      		net_rim_bb_gmail_resource__en.cod
+      		net_rim_bb_gmail_help_en.cod
+    	</files>
+      	</fileset>
+   	</application>
+
+	<application id="net.rim.java.memopad">
+        <name>MemoPad</name>
+        <description>A note-taking application</description>
+        <version>%_appsVersion:V03%</version>
+        <vendor>Repackaged by FT-UMJ</vendor>
+        <copyright>Copyright 1998-2010 Research In Motion Limited</copyright>
+        <required>true</required>
+        <directory SystemSize="normal">Java</directory>
+        <directory SystemSize="small">Java8M</directory>
+        <fileset Java="1.0">
+                <files>
+                        net_rim_bb_memo_app.cod
+                </files>
+        </fileset>
+	</application>
+
+	<application id="net.rim.bb.feeds">
+        <name>Social Feeds</name>
+        <description>Stay up-to-date with Social Feeds, a unified application for your social networking, instant messaging and RSS feeds.</description>
+        <version>1.0.0.58 </version>
+        <vendor>Repackaged by FT-UMJ</vendor>
+        <copyright>Copyright (c) 2010 Research In Motion Limited </copyright>
+        <apptype>system_independent</apptype> 
+        <recommended _onDeviceBbVersion="(,6.0)">true</recommended>
+   	<fileset Java="1.38">
+            <directory>Java</directory>
+		<files>
+                    net_rim_bb_feeds.cod
+                    net_rim_bb_feeds_lib.cod
+                    net_rim_bb_feeds_rss.cod
+                    net_rim_bb_feeds_resource_en.cod
+                    net_rim_bb_feeds_help_en.cod
+		</files>
+	</fileset>
+    	</application>
+
+	<application id="net.rim.java.maps">
+        <alias id="net.rim.bb.maps"/>
+        <name>BlackBerry Maps</name>
+        <description>Mapping Application for BlackBerry.</description>
+        <version>6.0.0.32</version>
+        <vendor>Repackaged by FT-UMJ</vendor>
+        <copyright>Copyright (c) 2010 Research In Motion Ltd.</copyright>
+	<apptype>system_independent</apptype> 
+        <recommended _onDeviceBbVersion="(,6.0)">true</recommended>
+        <fileset Java="1.0">
+            <directory>Java</directory>
+            <files>
+                net_rim_bb_maps.cod
+                net_rim_bb_maps_resource__en.cod
+            </files>
+        </fileset>
+        <fileset langid="0x0009" Java="1.0">
+            <directory>Java</directory>
+            <files>net_rim_bb_maps_help__en.cod</files>
+        </fileset>
+    	</application>
+
+	<application id="net.rim.bb.podcasts" _vendorID="~204|380|329|451|617">
+    	<name>BlackBerry Podcasts</name>
+    	<description>With Podcasts, you can discover, subscribe to, manage and play premium audio and video podcasts from a RIM catalog</description>
+    	<version>1.0.0.51</version>
+    	<vendor>Repackaged by FT-UMJ</vendor>
+    	<copyright>Copyright (c) 2009 Research In Motion Ltd.</copyright>
+    	<apptype>system_independent</apptype>
+   	<directory> Java </directory>
+    	<fileset Colour="True" Java="1.0">
+      	<files>
+		net_rim_bb_podcasts.cod
+      		net_rim_bb_podcasts_commons.cod
+      		net_rim_bb_podcasts_resource_en.cod
+      		net_rim_bb_podcasts_image_large.cod
+      		net_rim_bb_podcasts_image_small.cod
+	</files>
+    	</fileset>
+	</application>
+
+	<application id="net.rim.bb.youtube" _vendorID="~380|329|204|617|451|220">
+        <name>YouTube</name>
+        <description>YouTube for BlackBerry smartphones allows you to discover, watch and share originally-created videos on the go.</description>
+        <version>1.0.0.40</version>
+        <vendor>Repackaged by FT-UMJ</vendor>
+        <copyright>Copyright (c) 2010 Research In Motion Limited.</copyright>
+        <apptype>system_independent</apptype>
+        <fileset Java="1.0">
+        <directory>Java</directory>
+        <files>
+                net_rim_bb_youtube.cod
+                net_rim_bb_youtube_auth.cod
+                net_rim_bb_youtube_en.cod
+                net_rim_bb_youtube_commons.cod
+        </files>
+        </fileset>
+    	</application>
+
+	<application id="net.rim.bis.client">
+	<name>Email Setup</name> 
+	<description>Application for setting up BlackBerry Internet Service email.</description>
+	<version>%_appsVersion:V03%</version>
+	<vendor>Repackaged by FT-UMJ</vendor>
+	<copyright>Copyright 1998-2010 Research In Motion Limited</copyright>
+	<apptype>system_independent</apptype>
+	<required>true</required>
+	<recommended>true</recommended>
+        <directory SystemSize="normal">Java</directory>
+        <directory SystemSize="small">Java8M</directory>
+        <fileset Java="1.0">
+                <files>
+                        net_rim_bis_bg_client.cod
+			net_rim_bis_client.cod
+			net_rim_bis_client__en.cod
+			net_rim_bis_client_bbid_lib.cod
+			net_rim_bis_client_lib.cod
+			net_rim_bis_client_res.cod
+			net_rim_bis_client_resources.cod
+			net_rim_bis_Daemon.cod
+                </files>
+        </fileset>
+	</application>
+
+	<application id="net.rim.java.passwordkeeper">
+        <name>Password Keeper</name>
+        <description>Provides the ability to securely store passwords and generate new ones.</description>
+        <version>%_appsVersion:V03%</version>
+        <vendor>Repackaged by FT-UMJ</vendor>
+        <copyright>Copyright 1998-2010 Research In Motion Limited</copyright>
+        <requires id="net.rim.blackberry.crypto"/>
+        <directory SystemSize="normal">Java</directory>
+        <directory SystemSize="small">Java8M</directory>
+        <fileset Java="1.0">
+                <files>
+                        net_rim_bb_passwordkeeper.cod
+                        net_rim_bb_passwordkeeper_resource.cod
+                        net_rim_bb_passwordkeeper_resource__en.cod
+                </files>
+        </fileset>
+	</application>
+
+	<application id="net.rim.java.tasks">
+        <name>Tasks</name>
+        <description>A To-Do list application</description>
+        <version>%_appsVersion:V03%</version>
+        <vendor>Repackaged by FT-UMJ</vendor>
+        <copyright>Copyright 1998-2010 Research In Motion Limited</copyright>
+        <required>true</required>
+        <directory SystemSize="normal">Java</directory>
+        <directory SystemSize="small">Java8M</directory>
+        <fileset Java="1.0">
+                <files>
+                        net_rim_bb_task_app.cod
+                </files>
+        </fileset>
+	</application>
+
+	<application id="CJK">
+	<name>CJK East Asian Language </name>
+	<description>CJK Read Only </description>
+	<version>%_appsVersion:V02%</version>
+        <vendor>Repackaged by FT-UMJ</vendor>
+        <copyright>2012</copyright>
+	<fileset Java="1.0">
+	<directory>Java</directory>
+		<files>
+			net_rim_font_global_type.cod
+			net_rim_font_japanese.cod
+			net_rim_font_japanese_droid.cod
+			net_rim_font_indic.cod
+			net_rim_tid_dynamic_transcoding_data_EUC_CN.cod
+			net_rim_tid_dynamic_transcoding_data_EUC_JP.cod
+			net_rim_tid_dynamic_transcoding_data_ISO_2022_JP.cod
+			net_rim_tid_dynamic_transcoding_data_Shift_JIS.cod
+		</files>
+	</fileset>
+	</application>
+
+</application>
+</loader> 
