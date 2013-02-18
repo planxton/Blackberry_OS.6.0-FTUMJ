@@ -1,0 +1,650 @@
+<loader version="1.0">
+<application id="App.tools">
+<name> Application</name>
+<description>Kumpulan Application Blackberry</description>
+  
+		<application id="3rdApp">
+   		<name> 3rd Application </name>
+   		<description>3rd Application for Blackberry</description>
+
+			<application id="ATB">
+			<name>AutoText Backup </name>
+			<description> Backup Your AutoText Manualy </description>
+			<version> %_appsVersion:V03% </version>
+			<vendor> Repackaged by FT-UMJ </vendor>
+			<fileset Java="1.0">
+			<directory> application </directory>
+			<files>
+				AutoTextBackup.cod
+			</files>
+			</fileset>
+			</application>
+
+			<application id="APPL">
+			<name>AppLocker</name>
+			<description>Lock your Blackberry app</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+			        AppLocker.cod
+			</files>
+			</fileset>
+			</application>
+
+			<application id="ACLC">
+		  	<name>Advanced Call and LED Control </name>
+		  	<description>Advanced Call and LED Control</description>
+		  	<version>%_appsVersion:V03% </version>
+      			<vendor>Repackaged by FT-UMJ </vendor>
+		  	<fileset Java="1.0">
+			<directory>application </directory>
+			<files>
+                  		vcalls.cod
+				vcalls-1.cod
+		     	</files>
+		  	</fileset>
+     			</application>
+
+			<application id="BW">
+			<name>Battery Watch </name>
+			<description> Watch Battery </description>
+			<version>%_appsVersion:V03% </version>
+			<vendor>Repackaged by FT-UMJ </vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+			        BatteryWatch.cod			                  
+			</files>
+			</fileset>
+			</application>	
+
+			
+			<application id="BCD">
+			<name>Barcode </name>
+			<description>QR-Code Reader and Generator </description>
+			<version>%_appsVersion:V03% </version>
+			<vendor>Repackaged by FT-UMJ </vendor>
+			<fileset Java="1.0">
+			<directory>application </directory>
+			<files>
+			    	Barcode.cod
+				Barcode_BBM.cod
+				Barcode_Interface.cod
+				Barcode-1.cod
+				Barcode-2.cod
+				Barcode-3.cod
+				Barcode-4.cod
+				Barcode-5.cod
+				Barcode-6.cod
+				Barcode-7.cod
+			</files>
+			</fileset>
+			</application>
+
+			<application id="BBNP">
+			<name>BB NotePad</name>
+			<description> write and save TXt </description>
+			<version>%_appsVersion:V03% </version>
+			<vendor>Repackaged by FT-UMJ </vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+			        BBNotePad.cod			                  
+			</files>
+			</fileset>
+			</application>	
+
+			<application id="BP">
+		  	<name>BeepUs </name>
+		  	<description>BeepUs Social chat</description>
+		  	<version>%_appsVersion:V03% </version>
+      			<vendor>Repackaged by FT-UMJ </vendor>
+		  	<fileset Java="1.0">
+			<directory>application </directory>
+			<files>
+                  		br_com_tuk_beepus.cod
+				br_com_tuk_beepus_proxy.cod
+		     	</files>
+		  	</fileset>
+      			</application>
+
+			<application id="BBZ">
+			<name>berrybuzz (BeBuzz) </name>
+			<description>berrybuzz (BeBuzz) </description>
+			<version>%_appsVersion:V03% </version>
+			<vendor>Repackaged by FT-UMJ </vendor>
+			<fileset Java="1.0">
+			<directory>application </directory>
+			<files>
+			        berrybuzz.cod
+				berrybuzz-1.cod
+			</files>
+			</fileset>
+			</application>
+
+			<application id="BCA">
+			<name>BCA Mobile</name>
+			<description></description>
+			<version>%_appsVersion:V03% </version>
+			<vendor>Repackaged by FT-UMJ </vendor>
+			<fileset Java="1.0">
+			<directory>application </directory>
+			<files>
+			    	bcamobile.cod
+			</files>
+			</fileset>
+			</application>
+
+			<application id="CN">
+			<name>Capture Nux</name>
+			<description>capture your screen.</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+			    	Capture_Nux.cod
+			</files>
+			</fileset>
+			</application>
+
+			<application id="CL">
+			<name>Contack Cleaner full</name>
+		  	<description>Contack Cleaner full</description>
+		  	<version>%_appsVersion:V03%</version>
+      			<vendor>Repackaged by FT-UMJ</vendor>
+		  	<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+				concln.cod
+				concln-1.cod
+		    	</files>
+		  	</fileset>
+      			</application>
+
+			<application id="CBB">
+			<name>ControlBBanel</name>
+			<description>ControlBBanel</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+			        ControlBBanel.cod
+			</files>
+			</fileset>
+			</application>
+
+			<application id="CM">
+			<name>CamareMuteApp</name>
+			<description>Mute that Camera sound.</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+			    	CameraMuteApp.cod
+			</files>
+			</fileset>
+			</application>
+
+			<application id="CSU">
+			<name>Curve Slider Unlock</name>
+			<description>Curve slider Unlock</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+			       	CurveSlider.cod
+			</files>
+			</fileset>
+			</application>
+
+			<application id="DTK">
+			<name>Detik.com launcher</name>
+			<description>Detik.com</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+			        detikcom.cod
+			</files>
+			</fileset>
+			</application>
+
+			<application id="FM">
+		  	<name>FontManager 3.0.6</name>
+		  	<description>FontManager 3.0.6</description>
+		  	<version>3.0.6</version>
+      			<vendor>Repackaged by FT-UMJ</vendor>
+		  	<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+				FontManager.cod
+				FontManagerBBM.cod
+				FontManagerLib.cod
+		     	</files>
+		    	</fileset>
+      			</application>
+
+			<application id="FC">
+			<name>Font Collection</name>
+			<description>font collection BlackBerry unique</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+			        FontCollection.cod			                  
+			</files>
+			</fileset>
+			</application>
+
+			<application id="FS">
+			<name>FancySmiley</name>
+			<description>Emoticon for chat</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+				Fancy_Smileys.cod
+				Fancy_Smileys-1.cod
+				Fancy_Smileys-2.cod
+				Fancy_Smileys-3.cod
+				Fancy_Smileys-4.cod
+				Fancy_Smileys-5.cod
+				Fancy_Smileys-6.cod
+				Fancy_Smileys-7.cod
+				Fancy_Smileys-8.cod
+				Fancy_Smileys-9.cod
+				Fancy_Smileys-10.cod
+				Fancy_Smileys-11.cod
+				Fancy_Smileys-12.cod
+				Fancy_Smileys-13.cod
+				Fancy_Smileys-14.cod
+			</files>
+			</fileset>
+			</application>
+
+			<application id="FourS">
+			<name>FourSquare</name>
+			<description>Meet up with friends</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+			        FourSquare.cod
+				FourSquare-1.cod
+				FourSquare-2.cod
+				FourSquare-3.cod
+				FourSquare-4.cod
+				FourSquare-5.cod
+				FourSquare-6.cod
+				FourSquare-7.cod
+				FourSquare-8.cod
+				FourSquare-9.cod
+				FourSquare-10.cod
+				FourSquare-11.cod
+				FourSquare-12.cod
+				FourSquare-13.cod
+				FourSquare-14.cod
+				FourSquare-15.cod
+				FourSquare-16.cod
+				FourSquare-17.cod
+				FourSquare-18.cod
+				FourSquare-19.cod
+				FourSquare-20.cod
+				FourSquare-21.cod
+				FourSquare-22.cod
+				FourSquare-23.cod
+				FourSquare-24.cod
+				FourSquare-25.cod
+				FoursquareBBMCommon.cod
+				FoursquareBBMPlugin.cod			                  			</files>
+			</fileset>
+			</application>
+
+			<application id="Goal">
+		  	<name>Goal.com launcher</name>
+		  	<description>goal.com</description>
+		  	<version>%_appsVersion:V03%</version>
+      			<vendor>Repackaged by FT-UMJ</vendor>
+		  	<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+                     		GOAL_600_en.cod
+				GOAL_600_en_lib_bbm_shared.cod
+				GOAL_600_en_lib_bbm_wrapper.cod
+		     	</files>
+		  	</fileset>
+      			</application>
+
+
+			<application id="GoogleMaps">
+		  	<name>Google Maps</name>
+		  	<description>Google Maps for Blackberry</description>
+		  	<version>%_appsVersion:V03%</version>
+      			<vendor>Repackaged by FT-UMJ</vendor>
+		  	<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+                     		GoogleMaps.cod
+		     	</files>
+		  	</fileset>
+      			</application>
+
+			<application id="IL">
+		  	<name>iLock Pro</name>
+		  	<description>enables you to lock all your private message, pictures, email address, file folder</description>
+		  	<version>%_appsVersion:V03%</version>
+      			<vendor>Repackaged by FT-UMJ</vendor>
+		  	<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+                     		iLockPro.cod
+				iLockPro-1.cod
+				iLockPro-10.cod
+				iLockPro-11.cod
+				iLockPro-2.cod
+				iLockPro-3.cod
+				iLockPro-4.cod
+				iLockPro-5.cod
+				iLockPro-6.cod
+				iLockPro-7.cod
+				iLockPro-8.cod
+				iLockPro-9.cod
+				Share_impl.cod
+				Share_interface.cod
+		     	</files>
+		  	</fileset>
+      			</application>
+
+			<application id="TTS">
+			<name>KompasTTS</name>
+			<description>Kompas TTS</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>Chanliezta</vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+			  	KompasTTS.cod
+			</files>
+			</fileset>
+			</application> 	
+
+			<application id="MtrB">
+			<name>Meterberry</name>
+			<description>Meterberry</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>Chanliezta</vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+			  	MeterBerry.cod
+			</files>
+			</fileset>
+			</application> 	
+
+			<application id="Mp3Cut">
+		  	<name>Mp3 Cutter Pro</name>
+		  	<description>cut mp3 for make ringtones</description>
+		  	<version>%_appsVersion:V03%</version>
+      			<vendor>Repackaged by FT-UMJ</vendor>
+		  	<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+                        	Mp3CutterPro.cod
+		     	</files>
+		  	</fileset>
+      			</application>
+
+			<application id="NT">
+			<name>Nux Tool</name>
+			<description>sort url,coret text</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+			         Nux_Tools.cod
+			</files>
+			</fileset>
+			</application>	
+
+			<application id="operette$2dhifi">
+			<name>Opera mini browser</name>
+			<description>Opera browser for mobile</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>Repackaged by FT-UMJ</vendor>
+			<copyright></copyright>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+			         operette$2dhifi.cod
+			</files>
+			</fileset>
+			</application>	
+
+			<application id="PDFC">
+			<name>PDFCreator</name>
+			<description>PDFCreator</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+			         PDF_Creator_Ultimate_Free.cod			                  
+			</files>
+			</fileset>
+			</application>
+
+			<application id="PerformancePack">
+		  	<name>Performance Pack</name>
+		  	<description>Performance Tools</description>
+		  	<version>%_appsVersion:V03%</version>
+      			<vendor>Repackaged by FT-UMJ</vendor>
+		  	<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+                        	PerformancePack.cod
+		     	</files>
+		  	</fileset>
+      			</application>	
+
+			<application id="PlayerForYouTube">
+		  	<name>Player For YouTube</name>
+		  	<description>play youtube</description>
+		  	<version>%_appsVersion:V03%</version>
+      			<vendor>Repackaged by FT-UMJ</vendor>
+		  	<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+                        	PlayerForYouTube.cod
+		     	</files>
+		  	</fileset>
+      			</application>
+
+			<application id="photoeditor">
+			<name>photo editor</name>
+			<description>photoeditor</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+				photoeditor.cod
+				pscameraplus.cod
+				psbridge_implementation.cod
+				psbridge_interface.cod
+				pspicframes.cod
+				photoeditor_menu_reg.cod
+			</files>
+			</fileset>
+			</application>		
+
+			<application id="QuickPull">
+			<name>QuickPull</name>
+			<description>Description</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+				net_rim_bbapi_adv_app10045.cod
+				QuickPull.cod
+				QuickPull-1.cod
+				QuickPull-2.cod
+				QuickPull-3.cod
+				QuickPull-4.cod
+			</files>
+			</fileset>
+			</application>
+
+			<application id="Rock_File_Manager">
+			<name>Rock File Manager</name>
+			<description>Archive Manager for BlackBerry</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+			       Rock_File_Manager.cod
+			</files>
+			</fileset>
+			</application>
+
+			<application id="SM">
+			<name>Screen Muncher Pro</name>
+			<description>Free Simple ScreenMuncher Pro</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+			       	ScreenMuncher.cod
+				ScreenMuncher_bbminterface.cod
+				ScreenMuncher_impl.cod
+			</files>
+			</fileset>
+			</application>
+			
+			<application id="Sikad FT-UMJ">
+			<name>Sikad FT-UMJ</name>
+			<description>Sistem Informasi Akademik FT-UMJ</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+			       	sikadft.cod
+			</files>
+			</fileset>
+			</application>
+
+			<application id="Spam">
+		  	<name>Spaman</name>
+		  	<description>spam massage PIN/sms</description>
+		  	<version>%_appsVersion:V03%</version>
+      			<vendor>Repackaged by FT-UMJ</vendor>
+		  	<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+                        	SpamMan.cod
+		     	</files>
+		  	</fileset>
+      			</application>	
+
+
+			<application id="SpeedTest">
+		  	<name>Speed Test</name>
+		  	<description>test internet download speed </description>
+		  	<version>%_appsVersion:V03%</version>
+      			<vendor>Repackaged by FT-UMJ</vendor>
+		  	<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+                        	SpeedTest.cod
+		     	</files>
+		  	</fileset>
+      			</application>	
+
+			<application id="net.rim.java.tinymeter">
+			<name>Tiny Meter</name>
+			<description>Battery, memory, and signal monitoring app</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+				tiny_meter.cod
+			</files>
+			</fileset>
+			</application>
+
+			<application id="TuneIn">
+			<name>TuneIn Radio</name>
+			<description>TuneIn Radio</description>
+			<version>%_appsVersion:V03%</version>
+			<vendor>Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+			        TuneIn.cod
+			</files>
+			</fileset>
+			</application>
+
+			<application id="US">
+			<name>UberSocial</name>
+			<description>Uber social Network Tweter</description>
+			<version>1.3</version>
+			<vendor>Repackaged by FT-UMJ</vendor>
+			<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+				BBMBridge.cod
+				BBMBridgeInterface.cod			                 			Flurry.cod
+			        UberSocial.cod
+			</files>
+			</fileset>
+			</application>
+
+			<application id="UCBrowser">
+		  	<name>UCBrowser</name>
+		  	<description>UCBrowser Faster Browser</description>
+		  	<version>%_appsVersion:V03%</version>
+      			<vendor>Repackaged by FT-UMJ</vendor>
+		  	<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+                     		UCBrowser.cod
+		     	</files>
+		  	</fileset>
+      			</application>
+
+			<application id="UzBrowser">
+		  	<name>UZBrowserBB</name>
+		  	<description>uZBrowserBB Desktop Browser</description>
+		  	<version>%_appsVersion:V03%</version>
+      			<vendor>Repackaged by FT-UMJ</vendor>
+		  	<fileset Java="1.0">
+			<directory>application</directory>
+			<files>
+                     		uZBrowserBB.cod
+		     	</files>
+		  	</fileset>
+      			</application>
+
+		</application>
+</application> 
+</loader>
+  	
+		
+	    
+			      
