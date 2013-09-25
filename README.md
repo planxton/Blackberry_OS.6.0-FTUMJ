@@ -13,9 +13,9 @@ Go to Blackberry Developer [Site](https://developer.blackberry.com/)
 - Blackberry JDE 6.0
 - Blackberry Simulator for Whitebox testing
 - Blackberry Theme Studio 6.0
-- BBSAK [Download](www.bbsak.org)
+- BBSAK [Download](http://www.bbsak.org)
 
 Install java jdk n jre before you download it all.
 
 # Author
-[Desta Anggoro] (www.twitter.com/destadexde)
+[Desta Anggoro] (http://www.twitter.com/destadexde)
