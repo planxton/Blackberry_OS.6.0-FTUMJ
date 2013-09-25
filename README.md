@@ -18,4 +18,4 @@ Go to Blackberry Developer [Site](https://developer.blackberry.com/)
 Install java jdk n jre before you download it all.
 
 # Author
-[Desta Anggoro](www.twitter.com/destadexde)
+[Desta Anggoro] (www.twitter.com/destadexde)
